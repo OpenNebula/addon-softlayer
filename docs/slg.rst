@@ -15,6 +15,8 @@ You should take into account the following technical considerations when using t
 
 -  The usual OpenNebula functionality for snapshotting, hot-plugging, or migration is not available with SoftLayer (currently).
 
+- OneGate is not supported for VMs instantiated in Softlayer, since the authentication token is not available inside these VMs.
+
 -  By default OpenNebula will always launch slcci.small (1 CPU, 1024MB RAM) instances, unless otherwise specified.
 
 +--------------+--------------+-----------------+
